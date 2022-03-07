@@ -8,8 +8,8 @@
 
 const colors = ["red", "green", "blue"];
 
-const checkColor = function (color) {
-    return colors.indexOf(color);
-}
+const checkColor = (color) => colors.indexOf(color);
+
+
 
 console.log(checkColor(`red`));

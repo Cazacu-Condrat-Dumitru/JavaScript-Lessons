@@ -36,3 +36,5 @@ let person2 = {
     },
     address: 'Moldova'
 };
+
+console.log(preson1.Intrersection(person2));
