@@ -22,7 +22,7 @@ const ol_list = document.querySelector(".list");
 let list = document.getElementById("listCreator");
 
 function createList(list) {
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 20; i++) {
         if (i % 2 == 0) {
             p = document.getElementById("listCreator").innerHTML += "<p style=" + "background-color:green" + ">" + `Paragraful Nr ${ i }` + "</p>";
         } else {
