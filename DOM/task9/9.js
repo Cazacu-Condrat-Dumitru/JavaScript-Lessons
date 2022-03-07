@@ -17,7 +17,7 @@
 
 function showNotification(options) {
     div = document.createElement("div");
-    div.className = "notification";
+    div.className = "welcome";
     div.innerHTML = options;
     div.style.marginTop = "10px";
     div.style.marginLeft = "10px";
@@ -25,4 +25,4 @@ function showNotification(options) {
     const b = setTimeout(() => { div.innerHTML = "" }, 1500);
 }
 
-showNotification("Message");
+showNotification("Hello");
